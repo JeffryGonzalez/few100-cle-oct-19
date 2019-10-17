@@ -146,6 +146,7 @@ describe('functions', () => {
                 expect(pMaker('coolio')).toBe('<p>coolio</p>');
 
                 expect(tagMaker('h2')('kidding me?')).toBe('<h2>kidding me?</h2>');
+                // some change
             });
         });
     });
